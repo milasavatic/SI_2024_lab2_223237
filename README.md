@@ -16,5 +16,4 @@
 ![image](https://github.com/milasavatic/SI_2024_lab2_223237/assets/164552422/4e50e553-4be1-47d1-a85b-f65d2cbf93bd)
 ### Објаснување за Unit Tests
 Целта на Unit тестовите е да се исполнат сите услови и да поминат сите exceptions. Со употреба на assertThrows се фаќаат exceptions, a за да се провери дали се фрлил соодветниот exception се користи assertTrue. Се употребува и assertEquals за да се провери дали програмата го враќа точниот резултат.
-
 Со Multiple Condition се проверуваат сите if услови каде што има повеќе од еден услов, во нашиот случај if (item.getPrice() > 300 && item.getDiscount() > 0 && item.getBarcode().charAt(0) == '0'). И овде се користи assertThrows и assertTrue за фаќање и проверување дали е точен даден exception и assertEquals за проверување дали програмата враќа точен резултат.
